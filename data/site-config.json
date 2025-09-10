@@ -1,0 +1,34 @@
+{
+  "site": {
+    "title": "Rinkesh Jindal - Professional Profile & Thought Leader",
+    "description": "Professional profile showcasing expertise, thought leadership, and insights from Rinkesh Jindal.",
+    "url": "https://rinkeshjindal.com",
+    "author": "Rinkesh Jindal"
+  },
+  "contact": {
+    "email": "contact@rinkeshjindal.com",
+    "linkedin": "https://www.linkedin.com/in/rinkeshjindal/",
+    "medium": "https://medium.com/@rinkeshjindal",
+    "phone": "+1 (555) 123-4567"
+  },
+  "social": {
+    "linkedin": "https://www.linkedin.com/in/rinkeshjindal/",
+    "medium": "https://medium.com/@rinkeshjindal",
+    "twitter": "https://twitter.com/rinkeshjindal",
+    "github": "https://github.com/rinkeshjindal"
+  },
+  "seo": {
+    "keywords": [
+      "Rinkesh Jindal",
+      "technology professional",
+      "thought leader",
+      "digital transformation",
+      "cloud architecture",
+      "data analytics",
+      "leadership",
+      "innovation",
+      "consulting"
+    ],
+    "ogImage": "https://rinkeshjindal.com/assets/images/og-image.jpg"
+  }
+}
