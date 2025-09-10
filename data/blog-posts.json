@@ -1,0 +1,50 @@
+[
+  {
+    "title": "The Future of Cloud Computing: Trends and Predictions for 2024",
+    "snippet": "Exploring the latest trends in cloud computing and how they're shaping the future of technology infrastructure. From serverless architectures to edge computing, discover what's next.",
+    "url": "https://medium.com/@rinkeshjindal/future-of-cloud-computing-2024",
+    "source": "Medium",
+    "date": "2024-01-15",
+    "readTime": "5 min read"
+  },
+  {
+    "title": "Building Scalable Data Pipelines: A Practical Guide",
+    "snippet": "Learn how to design and implement robust data pipelines that can handle massive datasets while maintaining performance and reliability. Real-world examples and best practices included.",
+    "url": "https://medium.com/@rinkeshjindal/scalable-data-pipelines-guide",
+    "source": "Medium",
+    "date": "2024-01-10",
+    "readTime": "8 min read"
+  },
+  {
+    "title": "Leadership in the Digital Age: Adapting to Remote Work",
+    "snippet": "How modern leaders can effectively manage remote teams and drive digital transformation initiatives. Key strategies for maintaining team cohesion and productivity in virtual environments.",
+    "url": "https://www.linkedin.com/posts/rinkeshjindal_leadership-remote-work-digital-transformation-activity-1234567890",
+    "source": "LinkedIn",
+    "date": "2024-01-05",
+    "readTime": "6 min read"
+  },
+  {
+    "title": "AI and Machine Learning: Practical Applications for Business",
+    "snippet": "Discover how AI and ML technologies can be practically applied to solve real business challenges. Case studies and implementation strategies for organizations of all sizes.",
+    "url": "https://medium.com/@rinkeshjindal/ai-ml-business-applications",
+    "source": "Medium",
+    "date": "2023-12-28",
+    "readTime": "7 min read"
+  },
+  {
+    "title": "DevOps Best Practices: From Code to Production",
+    "snippet": "A comprehensive guide to implementing DevOps practices that improve deployment frequency, reduce lead time, and increase system reliability. Tools, processes, and cultural changes.",
+    "url": "https://www.linkedin.com/posts/rinkeshjindal_devops-best-practices-activity-1234567891",
+    "source": "LinkedIn",
+    "date": "2023-12-20",
+    "readTime": "9 min read"
+  },
+  {
+    "title": "Cybersecurity in the Cloud: Essential Strategies",
+    "snippet": "Protecting your cloud infrastructure from evolving threats. Essential security strategies, tools, and practices every organization should implement to safeguard their digital assets.",
+    "url": "https://medium.com/@rinkeshjindal/cloud-cybersecurity-strategies",
+    "source": "Medium",
+    "date": "2023-12-15",
+    "readTime": "6 min read"
+  }
+]

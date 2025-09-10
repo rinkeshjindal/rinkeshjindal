@@ -1,0 +1,50 @@
+[
+  {
+    "title": "Senior Technology Consultant",
+    "company": "Tech Solutions Inc.",
+    "location": "San Francisco, CA",
+    "startDate": "2022-01",
+    "endDate": "present",
+    "current": true,
+    "description": "Leading digital transformation initiatives and providing strategic technology consulting to enterprise clients. Focus on cloud architecture, data analytics, and process optimization.",
+    "achievements": [
+      "Led 15+ digital transformation projects for Fortune 500 companies",
+      "Reduced client infrastructure costs by 40% through cloud optimization",
+      "Mentored a team of 8 junior consultants",
+      "Developed proprietary frameworks for rapid cloud migration"
+    ],
+    "technologies": ["AWS", "Azure", "Kubernetes", "Docker", "Python", "Terraform"]
+  },
+  {
+    "title": "Technology Lead",
+    "company": "InnovateTech Corp",
+    "location": "New York, NY",
+    "startDate": "2020-03",
+    "endDate": "2021-12",
+    "current": false,
+    "description": "Managed cross-functional teams and delivered complex technology solutions. Spearheaded the adoption of modern development practices and cloud technologies.",
+    "achievements": [
+      "Built and led a team of 12 developers and engineers",
+      "Implemented CI/CD pipelines reducing deployment time by 60%",
+      "Architected microservices-based platform serving 1M+ users",
+      "Established coding standards and best practices across the organization"
+    ],
+    "technologies": ["Node.js", "React", "PostgreSQL", "Redis", "Docker", "Jenkins"]
+  },
+  {
+    "title": "Senior Software Engineer",
+    "company": "DataFlow Systems",
+    "location": "Austin, TX",
+    "startDate": "2018-06",
+    "endDate": "2020-02",
+    "current": false,
+    "description": "Developed and maintained enterprise applications, gaining deep technical expertise in full-stack development and system architecture.",
+    "achievements": [
+      "Designed and implemented scalable data processing pipelines",
+      "Optimized database queries resulting in 50% performance improvement",
+      "Contributed to open-source projects with 500+ GitHub stars",
+      "Mentored 3 junior developers"
+    ],
+    "technologies": ["Java", "Spring Boot", "MySQL", "Apache Kafka", "Elasticsearch", "Vue.js"]
+  }
+]

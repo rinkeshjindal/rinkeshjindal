@@ -1,0 +1,98 @@
+{
+  "technical": [
+    {
+      "name": "Cloud Architecture",
+      "level": "expert",
+      "description": "Designing and implementing scalable cloud solutions"
+    },
+    {
+      "name": "Data Analytics",
+      "level": "expert",
+      "description": "Extracting insights from large datasets using modern tools"
+    },
+    {
+      "name": "Machine Learning",
+      "level": "advanced",
+      "description": "Building and deploying ML models for business applications"
+    },
+    {
+      "name": "DevOps",
+      "level": "expert",
+      "description": "Implementing CI/CD pipelines and infrastructure automation"
+    },
+    {
+      "name": "API Development",
+      "level": "expert",
+      "description": "Designing and building RESTful and GraphQL APIs"
+    },
+    {
+      "name": "Database Design",
+      "level": "advanced",
+      "description": "Designing efficient database schemas and optimization"
+    }
+  ],
+  "leadership": [
+    {
+      "name": "Team Leadership",
+      "level": "expert",
+      "description": "Leading cross-functional teams to deliver complex projects"
+    },
+    {
+      "name": "Strategic Planning",
+      "level": "expert",
+      "description": "Developing technology roadmaps and business strategies"
+    },
+    {
+      "name": "Digital Transformation",
+      "level": "expert",
+      "description": "Guiding organizations through digital transformation initiatives"
+    },
+    {
+      "name": "Project Management",
+      "level": "advanced",
+      "description": "Managing large-scale technology projects from conception to delivery"
+    },
+    {
+      "name": "Stakeholder Management",
+      "level": "advanced",
+      "description": "Communicating with C-level executives and technical teams"
+    },
+    {
+      "name": "Change Management",
+      "level": "advanced",
+      "description": "Leading organizational change and adoption of new technologies"
+    }
+  ],
+  "technologies": [
+    {
+      "name": "Python",
+      "level": "expert",
+      "description": "Backend development, data science, and automation"
+    },
+    {
+      "name": "JavaScript",
+      "level": "advanced",
+      "description": "Full-stack development with modern frameworks"
+    },
+    {
+      "name": "AWS",
+      "level": "expert",
+      "description": "Cloud services, architecture, and best practices"
+    },
+    {
+      "name": "Docker",
+      "level": "expert",
+      "description": "Containerization and orchestration"
+    },
+    {
+      "name": "Kubernetes",
+      "level": "advanced",
+      "description": "Container orchestration and microservices"
+    },
+    {
+      "name": "React",
+      "level": "advanced",
+      "description": "Frontend development and user interface design"
+    }
+  ]
+}

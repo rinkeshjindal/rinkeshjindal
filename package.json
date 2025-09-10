@@ -1,0 +1,31 @@
+{
+  "name": "rinkesh-jindal-website",
+  "version": "1.0.0",
+  "description": "Personal branding website for Rinkesh Jindal - Professional Profile & Thought Leader",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve . -p 3000",
+    "dev": "npx live-server --port=3000 --open=/",
+    "build": "echo 'No build process needed - static site'",
+    "deploy": "echo 'Deploy to your preferred static hosting service'"
+  },
+  "keywords": [
+    "personal-website",
+    "portfolio",
+    "professional-profile",
+    "static-site",
+    "responsive",
+    "seo-optimized"
+  ],
+  "author": "Rinkesh Jindal",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "serve": "^14.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rinkeshjindal/personal-website.git"
+  },
+  "homepage": "https://rinkeshjindal.com"
+}
