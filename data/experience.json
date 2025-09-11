@@ -1,22 +1,22 @@
 [
   {
-    "title": "Foundation: Technical & Project Leadership",
-    "company": "Career Foundation (Wipro, Satyam, LTI)",
-    "location": "Global / On-site",
-    "startDate": "2002-01",
-    "endDate": "2011-09",
-    "current": false,
-    "description": "Built a deep technical foundation in data warehousing, BI, and software engineering for global clients like Cisco and Motorola. Progressed rapidly from hands-on development to leading and architecting complex data projects, consistently delivering robust technical solutions and managing high-performing teams.",
+    "title": "Leadership Impact: AI, Product & Data Strategy",
+    "company": "Executive Leadership Phase (IMS, American Express, Gen™)",
+    "location": "United States / Remote",
+    "startDate": "2023-05",
+    "endDate": "present",
+    "current": true,
+    "description": "Evolved into an executive role focused on driving enterprise-wide business strategy through product innovation, Generative AI, and advanced analytics. This phase is defined by creating direct, top-line value and leading high-stakes initiatives at the intersection of technology and business.",
     "achievements": [
-      "Mastered core data warehousing, ETL, and business intelligence principles through hands-on development and architecture.",
-      "Advanced from an individual contributor to a Team Lead and Project Manager, overseeing full project lifecycles.",
-      "Successfully delivered robust data solutions for enterprise clients including Cisco, Agilent Technologies, and Motorola.",
-      "Led technical migrations and trained teams on new platforms like Hyperion Performance Suite, enhancing reporting capabilities."
+      "Generated $186M+ in new revenue within six months by directing the strategy and launch of a groundbreaking cybersecurity data product.",
+      "Pioneered a customer-facing LLM-powered GenAI Chatbot and a machine learning home price prediction model with 90% accuracy.",
+      "Led product ownership for strategic Generative AI products, defining the vision and roadmap to drive enterprise-wide AI adoption.",
+      "Architected innovative GenAI product strategies and directed the delivery of bespoke data solutions to achieve measurable business impact."
     ],
-    "technologies": ["Data Warehousing", "ETL", "Business Intelligence", "SQL", "PL/SQL", "Hyperion", "Brio", "UNIX"]
+    "technologies": ["Generative AI", "LLM", "LangChain", "Product Management", "AI Strategy", "Business Development", "Prompt Engineering", "Python", "Data Science", "Agile SAFe", "Program Management", "Governance", "Data Quality"]
   },
   {
-    "title": "Growth: Strategic Program & Analytics Leadership",
+    "title": "Growth: Strategic Technical Leadership - Data Analytics Products & Programs",
     "company": "Strategic Growth Phase (Cognizant, Gen™)",
     "location": "United States",
     "startDate": "2011-09",
@@ -31,22 +31,23 @@
         "Championed a data modernization that cut Total Cost of Ownership by 66% and earned the prestigious Ignite Award.",
         "Doubled operational efficiency by modernizing 6,000+ ML models to PySpark for a platform serving 3,000+ global users."
     ],
-    "technologies": ["Machine Learning", "PySpark", "Hadoop", "Microsoft Azure", "MLOps", "Data Lakes", "Agile SAFe", "Program Management", "Consulting", "Data Strategy"]
+    "technologies": ["Machine Learning", "PySpark", "Hadoop", "Microsoft Azure", "MLOps", "Data Lakes", "Agile SAFe", "Program Management", "Consulting", "Data Strategy", "Data Governance", "Data Quality"]
   },
   {
-    "title": "Executive Impact: AI, Product & Data Strategy",
-    "company": "Executive Leadership Phase (IMS, American Express, Gen™)",
-    "location": "United States / Remote",
-    "startDate": "2023-05",
-    "endDate": "present",
-    "current": true,
-    "description": "Evolved into an executive role focused on driving enterprise-wide business strategy through product innovation, Generative AI, and advanced analytics. This phase is defined by creating direct, top-line value and leading high-stakes initiatives at the intersection of technology and business.",
+    "title": "Technical Leadership - Data Engineering and Business Intelligence",
+    "company": "Career Foundation (Wipro, Satyam, LTI)",
+    "location": "Global / On-site",
+    "startDate": "2002-01",
+    "endDate": "2011-09",
+    "current": false,
+    "description": "Built a deep technical foundation in data warehousing, BI, and software engineering for global clients like Cisco and Motorola. Progressed rapidly from hands-on development to leading and architecting complex data projects, consistently delivering robust technical solutions and managing high-performing teams.",
     "achievements": [
-      "Generated $186M+ in new revenue within six months by directing the strategy and launch of a groundbreaking cybersecurity data product.",
-      "Pioneered a customer-facing LLM-powered GenAI Chatbot and a machine learning home price prediction model with 90% accuracy.",
-      "Led product ownership for strategic Generative AI products, defining the vision and roadmap to drive enterprise-wide AI adoption.",
-      "Architected innovative GenAI product strategies and directed the delivery of bespoke data solutions to achieve measurable business impact."
+      "Mastered core data warehousing, ETL, and business intelligence principles through hands-on development and architecture.",
+      "Advanced from an individual contributor to a Team Lead and Project Manager, overseeing full project lifecycles.",
+      "Successfully delivered robust data solutions for enterprise clients including Cisco, Agilent Technologies, and Motorola.",
+      "Led technical migrations and trained teams on new platforms like Hyperion Performance Suite, enhancing reporting capabilities."
     ],
-    "technologies": ["Generative AI", "LLM", "LangChain", "Product Management", "AI Strategy", "Business Development", "Prompt Engineering", "Python", "Data Science"]
+    "technologies": ["Data Warehousing", "Data Modeling", "ETL", "ELT", "Business Intelligence", "Hyperion", "SQL", "PL/SQL", "Informatica", "Erwin", "Brio", "UNIX"]
   }
+  
 ]
