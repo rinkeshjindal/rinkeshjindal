@@ -6,12 +6,10 @@
     "startDate": "2023-05",
     "endDate": "present",
     "current": true,
-    "description": "Evolved into an executive role focused on driving enterprise-wide business strategy through product innovation, Generative AI, and advanced analytics. This phase is defined by creating direct, top-line value and leading high-stakes initiatives at the intersection of technology and business.",
+    "description": "Drives enterprise strategy and revenue through cutting-edge AI product innovation. Owns the full lifecycle—from vision and roadmap to execution—for high-impact data and Generative AI initiatives that create measurable business value.",
     "achievements": [
-      "Generated $186M+ in new revenue within six months by directing the strategy and launch of a groundbreaking cybersecurity data product.",
-      "Pioneered a customer-facing LLM-powered GenAI Chatbot and a machine learning home price prediction model with 90% accuracy.",
-      "Led product ownership for strategic Generative AI products, defining the vision and roadmap to drive enterprise-wide AI adoption.",
-      "Architected innovative GenAI product strategies and directed the delivery of bespoke data solutions to achieve measurable business impact."
+      "Generated $186M+ in new revenue within 6 months by launching a strategic cybersecurity data product.",
+      "Pioneered customer-facing GenAI solutions, including a sophisticated LLM chatbot and a 90% accurate ML prediction model."
     ],
     "technologies": ["Generative AI", "LLM", "LangChain", "Product Management", "AI Strategy", "Business Development", "Prompt Engineering", "Python", "Data Science", "Agile SAFe", "Program Management", "Governance", "Data Quality"]
   },
@@ -22,14 +20,10 @@
     "startDate": "2011-09",
     "endDate": "2023-05",
     "current": false,
-    "description": "Transitioned into large-scale strategic leadership, directing enterprise Data & Analytics programs for Fortune 100 clients. Drove significant revenue, founded a new AI practice, and led major data modernization and M&A integration initiatives, shifting focus from project delivery to strategic business impact.",
+    "description": "Pivoted to strategic program leadership for F100 clients. Drove major business outcomes by leading M&A data strategy, modernizing complex data ecosystems, and building a new AI practice from the ground up.",
     "achievements": [
-        "Drove 2x revenue growth by leading C-suite advisory and delivering transformative data solutions for clients like American Express and Wells Fargo.",
-        "Engineered an ML-driven data governance product that saved a client $800K annually and mitigated over $100M in potential fines.",
-        "Founded and scaled an AI & Data Science Practice from the ground up to 300+ professionals, establishing a center of excellence.",
-        "Led data strategy for 4 complex M&A events, unifying disparate systems into Azure Cloud to create 360-degree business visibility.",
-        "Championed a data modernization that cut Total Cost of Ownership by 66% and earned the prestigious Ignite Award.",
-        "Doubled operational efficiency by modernizing 6,000+ ML models to PySpark for a platform serving 3,000+ global users."
+      "Drove 2x revenue growth, founded a 300+ person AI practice, and saved $100M+ in risk with an ML governance product.",
+      "Cut enterprise TCO by 66% via cloud modernization and led data strategy for 4 complex M&A integrations."
     ],
     "technologies": ["Machine Learning", "PySpark", "Hadoop", "Microsoft Azure", "MLOps", "Data Lakes", "Agile SAFe", "Program Management", "Consulting", "Data Strategy", "Data Governance", "Data Quality"]
   },
@@ -40,14 +34,11 @@
     "startDate": "2002-01",
     "endDate": "2011-09",
     "current": false,
-    "description": "Built a deep technical foundation in data warehousing, BI, and software engineering for global clients like Cisco and Motorola. Progressed rapidly from hands-on development to leading and architecting complex data projects, consistently delivering robust technical solutions and managing high-performing teams.",
+    "description": "Built a strong technical foundation, delivering data warehousing & BI solutions for clients like Cisco. Progressed from hands-on engineer to architect and team lead, mastering the end-to-end delivery of robust data platforms and managing high-performing teams.",
     "achievements": [
-      "Mastered core data warehousing, ETL, and business intelligence principles through hands-on development and architecture.",
-      "Advanced from an individual contributor to a Team Lead and Project Manager, overseeing full project lifecycles.",
-      "Successfully delivered robust data solutions for enterprise clients including Cisco, Agilent Technologies, and Motorola.",
-      "Led technical migrations and trained teams on new platforms like Hyperion Performance Suite, enhancing reporting capabilities."
+      "Led full-lifecycle delivery of complex data warehouse solutions and key technical migrations for enterprise clients.",
+      "Successfully advanced from individual contributor to a respected team leader, mentoring and scaling engineering talent."
     ],
     "technologies": ["Data Warehousing", "Data Modeling", "ETL", "ELT", "Business Intelligence", "Hyperion", "SQL", "PL/SQL", "Informatica", "Erwin", "Brio", "UNIX"]
   }
-  
 ]
