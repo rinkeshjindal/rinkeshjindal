@@ -1,50 +1,130 @@
 [
   {
-    "title": "Senior Technology Consultant",
-    "company": "Tech Solutions Inc.",
-    "location": "San Francisco, CA",
-    "startDate": "2022-01",
+    "title": "Principal Consultant - Product & Program Management",
+    "company": "Information Management Services LLC",
+    "location": "United States",
+    "startDate": "2023-07",
     "endDate": "present",
     "current": true,
-    "description": "Leading digital transformation initiatives and providing strategic technology consulting to enterprise clients. Focus on cloud architecture, data analytics, and process optimization.",
+    "description": "Harnessing the power of data, analytics, product management, and program management to tackle business challenges and reveal profound insights.",
     "achievements": [
-      "Led 15+ digital transformation projects for Fortune 500 companies",
-      "Reduced client infrastructure costs by 40% through cloud optimization",
-      "Mentored a team of 8 junior consultants",
-      "Developed proprietary frameworks for rapid cloud migration"
+      "Pioneered and currently spearhead the development of a customer-facing LLM-powered GenAI Chatbot for enhanced engagement, and a machine learning-driven home price prediction model achieving 90% accuracy.",
+      "Delivered tailored data-driven solutions by leveraging data management & IT skills.",
+      "Lead strategic client engagements, architect innovative GenAI product strategies, and oversee the delivery of bespoke data solutions that achieve measurable business impact.",
+      "Drive business development, high-level solution architecture, and client success through strategic advisory, leveraging advanced AI frameworks and prompt engineering techniques."
     ],
-    "technologies": ["AWS", "Azure", "Kubernetes", "Docker", "Python", "Terraform"]
+    "technologies": ["Generative AI", "Machine Learning", "Python", "Agile Methodologies", "Azure Data Lake", "SQL", "Data Science", "Data Engineering", "Product Management", "Program Management"]
   },
   {
-    "title": "Technology Lead",
-    "company": "InnovateTech Corp",
-    "location": "New York, NY",
-    "startDate": "2020-03",
-    "endDate": "2021-12",
+    "title": "Generative AI - Technology Product Manager",
+    "company": "American Express",
+    "location": "Remote",
+    "startDate": "2024-11",
+    "endDate": "2025-06",
     "current": false,
-    "description": "Managed cross-functional teams and delivered complex technology solutions. Spearheaded the adoption of modern development practices and cloud technologies.",
+    "description": "Led product ownership for strategic Generative AI products, defining and championing the vision, strategy, and roadmap to drive enterprise-wide AI adoption and business value.",
     "achievements": [
-      "Built and led a team of 12 developers and engineers",
-      "Implemented CI/CD pipelines reducing deployment time by 60%",
-      "Architected microservices-based platform serving 1M+ users",
-      "Established coding standards and best practices across the organization"
+      "Leveraged tools like LLM, LangChain, LangFlow, MCP (Model Context Protocol), Agentic Design, Pipeline Studio, and Prompt Engineering to design scalable solutions that enhance productivity.",
+      "Translated complex business needs into actionable Agile backlogs, managing feature prioritization and collaborating daily with cross-functional teams to ensure successful delivery.",
+      "Drove stakeholder engagement across diverse business units, effectively communicating product progress, gathering critical feedback, and ensuring alignment with strategic objectives."
     ],
-    "technologies": ["Node.js", "React", "PostgreSQL", "Redis", "Docker", "Jenkins"]
+    "technologies": ["Generative AI", "LLM", "LangChain", "LangFlow", "Prompt Engineering", "Microsoft Azure", "Agile Methodologies", "Product Management"]
   },
   {
-    "title": "Senior Software Engineer",
-    "company": "DataFlow Systems",
-    "location": "Austin, TX",
-    "startDate": "2018-06",
+    "title": "Sr. Data Delivery Leader",
+    "company": "Gen™",
+    "location": "Tempe, Arizona, United States",
+    "startDate": "2020-02",
+    "endDate": "2023-05",
+    "current": false,
+    "description": "Directed enterprise data programs, product strategy, and M&A data integration. Spearheaded data modernization initiatives, reducing TCO and processing time. Established and scaled a global Project Management Office (PMO) for agile teams.",
+    "achievements": [
+      "Launched a cybersecurity data product that generated $186M+ in revenue within 6 months.",
+      "Spearheaded data strategy and integration for 4 complex M&A events, migrating data to Azure Cloud.",
+      "Championed a data modernization initiative, reducing Total Cost of Ownership (TCO) by 66% and data processing cycle time by 46%, earning the prestigious Ignite Award.",
+      "Established and scaled a global PMO for 12 agile teams across 4 continents.",
+      "Implemented predictive analytics solutions for dynamic pricing, resulting in an 18% increase in customer retention.",
+      "Orchestrated the development of MLOps frameworks using Azure, Databricks, and Python.",
+      "Led a team to harmonize 10+ data sources, improving Data Quality by 50%.",
+      "Founded a global LEADS Community in partnership with the CEO and COO to champion DEI initiatives."
+    ],
+    "technologies": ["Microsoft Azure", "Azure Synapse", "Databricks", "Python", "MLOps", "SQL", "Data Warehousing", "Agile Methodologies", "Program Management"]
+  },
+  {
+    "title": "Engagement Manager",
+    "company": "Cognizant",
+    "location": "United States - Multiple States",
+    "startDate": "2011-09",
     "endDate": "2020-02",
     "current": false,
-    "description": "Developed and maintained enterprise applications, gaining deep technical expertise in full-stack development and system architecture.",
+    "description": "Directed Data & Analytics programs for Fortune 100 Clients, driving revenue growth and optimizing P&L. Led full lifecycle engagement management, from RFP wins to talent acquisition. Founded and scaled an AI & Data Science Practice for over 300 professionals.",
     "achievements": [
-      "Designed and implemented scalable data processing pipelines",
-      "Optimized database queries resulting in 50% performance improvement",
-      "Contributed to open-source projects with 500+ GitHub stars",
-      "Mentored 3 junior developers"
+      "Engineered a pivotal ML-driven data governance product for American Express, saving $800K annually (TCO) and mitigating $100M+ in potential fines.",
+      "Modernized 6000+ ML models to PySpark for American Express, achieving 2x operational efficiency.",
+      "Orchestrated Hadoop/Spark data modernizations for American Express, boosting NPS by 20%.",
+      "Led the transformation of the mortgage data landscape for Wells Fargo, driving 33% revenue growth for the account portfolio.",
+      "Championed data stewardship and enhanced data quality for Capital One's card analytics.",
+      "Pioneered Cognizant's entry and growth in key portfolios including Cummins, First Data, and Schneider Logistics."
     ],
-    "technologies": ["Java", "Spring Boot", "MySQL", "Apache Kafka", "Elasticsearch", "Vue.js"]
+    "technologies": ["PySpark", "Hadoop", "Spark", "Machine Learning", "R", "Data Lakes", "SQL", "PL/SQL", "Agile SAFe", "Consulting"]
+  },
+  {
+    "title": "Project Manager / Architect (DWBI)",
+    "company": "Wipro Technologies",
+    "location": "Simi Valley, CA",
+    "startDate": "2009-09",
+    "endDate": "2011-09",
+    "current": false,
+    "description": "Managed and architected solutions for Data Warehouse, ETL, and Business Intelligence projects, utilizing PL/SQL and the Hyperion/Brio suite.",
+    "achievements": [
+      "Successfully delivered multiple data warehouse and business intelligence projects.",
+      "Led the technical architecture and project management for DWBI solutions.",
+      "Managed development using ETL tools and Business Intelligence platforms."
+    ],
+    "technologies": ["Data Warehousing", "ETL", "Business Intelligence", "Hyperion", "Brio", "PL/SQL", "SQL"]
+  },
+  {
+    "title": "Project Manager - Team Lead",
+    "company": "Satyam Computer Services Ltd",
+    "location": "On-site",
+    "startDate": "2006-01",
+    "endDate": "2009-09",
+    "current": false,
+    "description": "Led a team responsible for the Enterprise Data Warehouse for clients Cisco and Agilent Technologies. Managed development, maintenance, batch job resolution, change requests, and team training.",
+    "achievements": [
+      "Developed and maintained BRIO/Hyperion reports and technical documentation.",
+      "Developed PL/SQL and UNIX scripts for warehouse data loading.",
+      "Migrated reports and jobs from Brio 6.6 to Hyperion Performance Suite 8.3.1.",
+      "Trained team members on Hyperion/Brio tools and data warehouse concepts."
+    ],
+    "technologies": ["Hyperion", "Brio", "PL/SQL", "UNIX", "SQL", "Data Warehousing"]
+  },
+  {
+    "title": "Software Engineer",
+    "company": "LTI - Larsen & Toubro Infotech",
+    "location": "Mumbai, Maharashtra, India",
+    "startDate": "2004-01",
+    "endDate": "2006-01",
+    "current": false,
+    "description": "Worked as a Software Engineer on Sector Data Warehouse projects for clients including Motorola and Freescale Semiconductor.",
+    "achievements": [
+      "Contributed to the development and implementation of data warehouse solutions.",
+      "Worked on database and business intelligence tasks for semiconductor clients."
+    ],
+    "technologies": ["SQL", "Databases", "Business Intelligence", "Data Management"]
+  },
+  {
+    "title": "Software Engineer Intern / Freelancer",
+    "company": "Freelance",
+    "location": "Jaipur, Rajasthan, India",
+    "startDate": "2002-01",
+    "endDate": "2004-01",
+    "current": false,
+    "description": "Organized and led teams of students to develop computer applications, websites, and networking services for local vendors in Jaipur, India.",
+    "achievements": [
+      "Developed various software applications and websites for local businesses.",
+      "Managed small teams to deliver technology projects from conception to completion."
+    ],
+    "technologies": ["Web Development", "Networking", "Software Development"]
   }
 ]
