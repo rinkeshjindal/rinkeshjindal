@@ -367,7 +367,63 @@ section {
 .timeline-date {
     color: #6b7280;
     font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.timeline-location {
+    color: #9ca3af;
+    font-size: 0.9rem;
     margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.achievements {
+    margin-top: 1rem;
+}
+
+.achievements h5 {
+    color: #1f2937;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.achievements ul {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.achievements li {
+    color: #4b5563;
+    margin-bottom: 0.25rem;
+    font-size: 0.9rem;
+}
+
+.technologies {
+    margin-top: 1rem;
+}
+
+.technologies h5 {
+    color: #1f2937;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tech-tag {
+    background: #f3f4f6;
+    color: #374151;
+    padding: 0.25rem 0.75rem;
+    border-radius: 12px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border: 1px solid #e5e7eb;
 }
 
 /* Skills Section */
