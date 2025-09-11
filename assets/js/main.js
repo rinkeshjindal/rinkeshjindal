@@ -171,6 +171,67 @@ async function loadBlogPosts() {
     }
 }
 
+// Load experience data
+async function loadExperience() {
+    try {
+        const response = await fetch('data/experience.json');
+        const experiences = await response.json();
+        
+        const timeline = document.querySelector('.timeline');
+        if (!timeline) return;
+        
+        if (experiences.length === 0) {
+            timeline.innerHTML = '<p class="text-center">No experience data available.</p>';
+            return;
+        }
+        
+        timeline.innerHTML = experiences.map((exp, index) => `
+            <div class="timeline-item">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <h3>${exp.title}</h3>
+                    <h4>${exp.company}</h4>
+                    <p class="timeline-date">${formatDate(exp.startDate)} - ${exp.current ? 'Present' : formatDate(exp.endDate)}</p>
+                    <p class="timeline-location">${exp.location}</p>
+                    <p>${exp.description}</p>
+                    ${exp.achievements && exp.achievements.length > 0 ? `
+                        <div class="achievements">
+                            <h5>Key Achievements:</h5>
+                            <ul>
+                                ${exp.achievements.map(achievement => `<li>${achievement}</li>`).join('')}
+                            </ul>
+                        </div>
+                    ` : ''}
+                    ${exp.technologies && exp.technologies.length > 0 ? `
+                        <div class="technologies">
+                            <h5>Technologies:</h5>
+                            <div class="tech-tags">
+                                ${exp.technologies.map(tech => `<span class="tech-tag">${tech}</span>`).join('')}
+                            </div>
+                        </div>
+                    ` : ''}
+                </div>
+            </div>
+        `).join('');
+        
+    } catch (error) {
+        console.error('Error loading experience data:', error);
+        const timeline = document.querySelector('.timeline');
+        if (timeline) {
+            timeline.innerHTML = '<p class="text-center">Unable to load experience data. Please try again later.</p>';
+        }
+    }
+}
+
+// Format date for display
+function formatDate(dateString) {
+    if (!dateString) return '';
+    
+    const date = new Date(dateString + '-01'); // Add day to make it valid
+    const options = { year: 'numeric', month: 'long' };
+    return date.toLocaleDateString('en-US', options);
+}
+
 // Intersection Observer for animations
 const observerOptions = {
     threshold: 0.1,
@@ -197,8 +258,9 @@ document.addEventListener('DOMContentLoaded', () => {
         observer.observe(el);
     });
     
-    // Load blog posts
+    // Load dynamic content
     loadBlogPosts();
+    loadExperience();
 });
 
 // Typing animation for hero text
