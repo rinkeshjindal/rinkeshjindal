@@ -39,6 +39,9 @@ h3 {
 
 p {
     margin-bottom: 1rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #4b5563;
 }
 
 .lead {
@@ -352,6 +355,38 @@ section {
     border: 1px solid #e5e7eb;
 }
 
+.timeline-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+    gap: 1.5rem;
+}
+
+.timeline-text {
+    flex: 1;
+}
+
+.timeline-image {
+    flex-shrink: 0;
+    width: 120px;
+    height: 90px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.company-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.company-image:hover {
+    transform: scale(1.05);
+}
+
 .timeline-content h3 {
     color: #1f2937;
     margin-bottom: 0.5rem;
@@ -362,6 +397,13 @@ section {
     font-size: 1rem;
     font-weight: 500;
     margin-bottom: 0.5rem;
+}
+
+.timeline-content p {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #4b5563;
 }
 
 .timeline-date {
@@ -396,7 +438,8 @@ section {
 .achievements li {
     color: #4b5563;
     margin-bottom: 0.25rem;
-    font-size: 0.9rem;
+    font-size: 1rem;
+    line-height: 1.6;
 }
 
 .technologies {
@@ -737,6 +780,17 @@ section {
     .timeline-marker {
         left: 10px !important;
         right: auto !important;
+    }
+
+    .timeline-header {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .timeline-image {
+        width: 100%;
+        height: 120px;
+        align-self: center;
     }
 
     .skills-grid {
