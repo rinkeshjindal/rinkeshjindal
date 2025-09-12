@@ -76,7 +76,34 @@
             padding: 3px 8px; 
             border-radius: 12px; 
             font-size: 0.8rem; 
-            border: 1px solid #bbdefb;
+            border: 1px solid #bbdefb; 
+        }
+        .timeline-header { 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: flex-start; 
+            margin-bottom: 15px; 
+            gap: 15px; 
+        }
+        .timeline-text { 
+            flex: 1; 
+        }
+        .timeline-image { 
+            flex-shrink: 0; 
+            width: 100px; 
+            height: 75px; 
+            border-radius: 8px; 
+            overflow: hidden; 
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1); 
+        }
+        .company-image { 
+            width: 100%; 
+            height: 100%; 
+            object-fit: cover; 
+            transition: transform 0.3s ease; 
+        }
+        .company-image:hover { 
+            transform: scale(1.05); 
         }
         .status { 
             padding: 10px; 
@@ -164,10 +191,17 @@
                 
                 timeline.innerHTML = experiences.map((exp, index) => `
                     <div class="timeline-item">
-                        <h3>${exp.title}</h3>
-                        <h4>${exp.company}</h4>
-                        <p class="timeline-date">${formatDate(exp.startDate)} - ${exp.current ? 'Present' : formatDate(exp.endDate)}</p>
-                        <p class="timeline-location">📍 ${exp.location}</p>
+                        <div class="timeline-header">
+                            <div class="timeline-text">
+                                <h3>${exp.title}</h3>
+                                <h4>${exp.company}</h4>
+                                <p class="timeline-date">${formatDate(exp.startDate)} - ${exp.current ? 'Present' : formatDate(exp.endDate)}</p>
+                                <p class="timeline-location">📍 ${exp.location}</p>
+                            </div>
+                            <div class="timeline-image">
+                                <img src="assets/images/experience-placeholder.svg" alt="${exp.company} - Professional Environment" class="company-image">
+                            </div>
+                        </div>
                         <p>${exp.description}</p>
                         ${exp.achievements && exp.achievements.length > 0 ? `
                             <div class="achievements">
