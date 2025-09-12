@@ -189,10 +189,17 @@ async function loadExperience() {
             <div class="timeline-item">
                 <div class="timeline-marker"></div>
                 <div class="timeline-content">
-                    <h3>${exp.title}</h3>
-                    <h4>${exp.company}</h4>
-                    <p class="timeline-date">${formatDate(exp.startDate)} - ${exp.current ? 'Present' : formatDate(exp.endDate)}</p>
-                    <p class="timeline-location">${exp.location}</p>
+                    <div class="timeline-header">
+                        <div class="timeline-text">
+                            <h3>${exp.title}</h3>
+                            <h4>${exp.company}</h4>
+                            <p class="timeline-date">${formatDate(exp.startDate)} - ${exp.current ? 'Present' : formatDate(exp.endDate)}</p>
+                            <p class="timeline-location">${exp.location}</p>
+                        </div>
+                        <div class="timeline-image">
+                            <img src="assets/images/experience-placeholder.svg" alt="${exp.company} - Professional Environment" class="company-image">
+                        </div>
+                    </div>
                     <p>${exp.description}</p>
                     ${exp.achievements && exp.achievements.length > 0 ? `
                         <div class="achievements">
