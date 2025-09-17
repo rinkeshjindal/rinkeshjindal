@@ -199,7 +199,8 @@ timeline.innerHTML = experiences.map((exp, index) => `
                         <div class="achievements">
                             <h5>Key Achievements:</h5>
                             <ul>
-                                ${exp.achievements.map(achievement => `<li>${achievement}</li>`
+                                ${exp.achievements.map(achievement => `<li>${achievement}</li>`).join('')}
+                            </ul>
                         </div>
         </div>
         <div class="timeline-image">
