@@ -194,32 +194,29 @@ timeline.innerHTML = experiences.map((exp, index) => `
             <p class="timeline-date">${formatDate(exp.startDate)} - ${exp.current ? 'Present' : formatDate(exp.endDate)}</p>
             <p class="timeline-location">${exp.location}</p>
             <p>${exp.description}</p>
-            <!-- achievements and technologies -->
             ${exp.achievements && exp.achievements.length > 0 ? `
-                        <div class="achievements">
-                            <h5>Key Achievements:</h5>
-                            <ul>
-                                ${exp.achievements.map(achievement => `<li>${achievement}</li>`).join('')}
-                            </ul>
-                        </div>
+                <div class="achievements">
+                    <h5>Key Achievements:</h5>
+                    <ul>
+                        ${exp.achievements.map(achievement => `<li>${achievement}</li>`).join('')}
+                    </ul>
+                </div>
+            ` : ''}
+            ${exp.technologies && exp.technologies.length > 0 ? `
+                <div class="technologies">
+                    <h5>Technologies:</h5>
+                    <div class="tech-tags">
+                        ${exp.technologies.map(tech => `<span class="tech-tag">${tech}</span>`).join('')}
+                    </div>
+                </div>
+            ` : ''}
         </div>
         <div class="timeline-image">
             <img src="assets/images/experience-placeholder.svg" alt="${exp.company} - Professional Environment" class="company-image">
         </div>
     </div>
 `).join('');
-                    ${exp.technologies && exp.technologies.length > 0 ? `
-                        <div class="technologies">
-                            <h5>Technologies:</h5>
-                            <div class="tech-tags">
-                                ${exp.technologies.map(tech => `<span class="tech-tag">${tech}</span>`).join('')}
-                            </div>
-                        </div>
-                    ` : ''}
-                </div>
-            </div>
-        `).join('');
-        
+            
     } catch (error) {
         console.error('Error loading experience data:', error);
         const timeline = document.querySelector('.timeline');
