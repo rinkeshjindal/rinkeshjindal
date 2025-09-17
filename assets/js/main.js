@@ -195,6 +195,11 @@ timeline.innerHTML = experiences.map((exp, index) => `
             <p class="timeline-location">${exp.location}</p>
             <p>${exp.description}</p>
             <!-- achievements and technologies -->
+            ${exp.achievements && exp.achievements.length > 0 ? `
+                        <div class="achievements">
+                            <h5>Key Achievements:</h5>
+                            <ul>
+                                ${exp.achievements.map(achievement => `<li>${achievement}</li>`
         </div>
         <div class="timeline-image">
             <img src="assets/images/experience-placeholder.svg" alt="${exp.company} - Professional Environment" class="company-image">
