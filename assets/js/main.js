@@ -185,30 +185,22 @@ async function loadExperience() {
             return;
         }
         
-        timeline.innerHTML = experiences.map((exp, index) => `
-            <div class="timeline-item">
-                <div class="timeline-marker"></div>
-                <div class="timeline-content">
-                    <div class="timeline-header">
-                        <div class="timeline-text">
-                            <h3>${exp.title}</h3>
-                            <h4>${exp.company}</h4>
-                            <p class="timeline-date">${formatDate(exp.startDate)} - ${exp.current ? 'Present' : formatDate(exp.endDate)}</p>
-                            <p class="timeline-location">${exp.location}</p>
-                        </div>
-                        <div class="timeline-image">
-                            <img src="assets/images/experience-placeholder.svg" alt="${exp.company} - Professional Environment" class="company-image">
-                        </div>
-                    </div>
-                    <p>${exp.description}</p>
-                    ${exp.achievements && exp.achievements.length > 0 ? `
-                        <div class="achievements">
-                            <h5>Key Achievements:</h5>
-                            <ul>
-                                ${exp.achievements.map(achievement => `<li>${achievement}</li>`).join('')}
-                            </ul>
-                        </div>
-                    ` : ''}
+timeline.innerHTML = experiences.map((exp, index) => `
+    <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+            <h3>${exp.title}</h3>
+            <h4>${exp.company}</h4>
+            <p class="timeline-date">${formatDate(exp.startDate)} - ${exp.current ? 'Present' : formatDate(exp.endDate)}</p>
+            <p class="timeline-location">${exp.location}</p>
+            <p>${exp.description}</p>
+            <!-- achievements and technologies -->
+        </div>
+        <div class="timeline-image">
+            <img src="assets/images/experience-placeholder.svg" alt="${exp.company} - Professional Environment" class="company-image">
+        </div>
+    </div>
+`).join('');
                     ${exp.technologies && exp.technologies.length > 0 ? `
                         <div class="technologies">
                             <h5>Technologies:</h5>
