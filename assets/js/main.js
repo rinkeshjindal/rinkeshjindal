@@ -176,7 +176,7 @@ async function loadExperience() {
     try {
         const response = await fetch('data/experience.json');
         const experiences = await response.json();
-        
+        console.log(experiences);
         const timeline = document.querySelector('.timeline');
         if (!timeline) return;
         
@@ -200,6 +200,7 @@ timeline.innerHTML = experiences.map((exp, index) => `
                             <h5>Key Achievements:</h5>
                             <ul>
                                 ${exp.achievements.map(achievement => `<li>${achievement}</li>`
+                        </div>
         </div>
         <div class="timeline-image">
             <img src="assets/images/experience-placeholder.svg" alt="${exp.company} - Professional Environment" class="company-image">
