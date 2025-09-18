@@ -360,7 +360,7 @@ section {
 }
 
 .company-image {
-    width: 150px; /* Or your desired fixed size */
+    width: 100%; /* Or your desired fixed size */
     height: 120px;
     object-fit: cover;
     border-radius: 8px;
