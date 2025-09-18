@@ -299,6 +299,7 @@ section {
     position: relative;
     max-width: 1600px;
     margin: 0 auto;
+    padding: 2rem 0; /* Add some padding to prevent items from touching the edges */
 }
 
 .timeline::before {
@@ -315,62 +316,24 @@ section {
 .timeline-item {
     position: relative;
     margin-bottom: 3rem;
-    width: 50%;
-    display: flex;
-    align-items: center;
+    display: flex; /* FIX: Use flexbox to position children */
+    justify-content: space-between; /* FIX: Push children to opposite ends */
+    width: 100%; /* FIX: Make the item span the full width */
 }
 
+/* For odd items, content is on the left, image on the right */
 .timeline-item:nth-child(odd) {
-    left: 0;
-    padding-right: 2rem;
-    flex-direction: row; /* Content left, Image right */
+    flex-direction: row;
 }
 
+/* For even items, reverse the order: image on the left, content on the right */
 .timeline-item:nth-child(even) {
-    left: 50%;
-    padding-left: 2rem;
-    flex-direction: row-reverse; /* Image left, Content right */
+    flex-direction: row-reverse;
 }
 
 .timeline-content {
-    background: white;
-    padding: 2rem;
-    border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-    border: 1px solid #e5e7eb;
-    flex: 1;
-    margin: 0 1rem;
-}
-
-.timeline-image {
-    width: 150px;
-    height: 120px;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
-    flex-shrink: 0;
-}
-
-.timeline-marker {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    background: #2563eb;
-    border-radius: 50%;
-    top: 0;
-    border: 4px solid white;
-    box-shadow: 0 0 0 4px #e5e7eb;
-}
-
-.timeline-item:nth-child(odd) .timeline-marker {
-    right: -10px;
-}
-
-.timeline-item:nth-child(even) .timeline-marker {
-    left: -10px;
-}
-
-.timeline-content {
+    /* FIX: Set a width that is slightly less than 50% to create a gap */
+    width: calc(50% - 4rem);
     background: white;
     padding: 2rem;
     border-radius: 12px;
@@ -378,37 +341,56 @@ section {
     border: 1px solid #e5e7eb;
 }
 
-.timeline-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 1.5rem;
-    gap: 1.5rem;
-}
-
-.timeline-text {
-    flex: 1;
-}
-
 .timeline-image {
+    /* FIX: Set a width that is slightly less than 50% to create a gap */
+    width: calc(50% - 4rem);
+    display: flex; /* Use flexbox for easy image alignment */
+    align-items: center; /* Vertically center the image if needed */
     flex-shrink: 0;
-    width: 120px;
-    height: 90px;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Align the image to the right for odd items (content is on the left) */
+.timeline-item:nth-child(odd) .timeline-image {
+    justify-content: flex-start; /* Aligns image to the side of the central line */
+}
+
+/* Align the image to the left for even items (content is on the right) */
+.timeline-item:nth-child(even) .timeline-image {
+    justify-content: flex-end; /* Aligns image to the side of the central line */
 }
 
 .company-image {
-    width: 100%;
-    height: 100%;
+    width: 150px; /* Or your desired fixed size */
+    height: 120px;
     object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     transition: transform 0.3s ease;
 }
 
 .company-image:hover {
     transform: scale(1.05);
 }
+
+.timeline-marker {
+    position: absolute;
+    top: 20px; /* Adjust vertical position as needed */
+    
+    /* FIX: Simplified positioning. Always center the marker. */
+    left: 50%;
+    transform: translateX(-50%);
+
+    width: 20px;
+    height: 20px;
+    background: #2563eb;
+    border-radius: 50%;
+    border: 4px solid white;
+    box-shadow: 0 0 0 4px #e5e7eb;
+    z-index: 10; /* Ensure it's on top of the line */
+}
+
+
+/* --- Other styles remain the same --- */
 
 .timeline-content h3 {
     color: #1f2937;
@@ -429,24 +411,17 @@ section {
     color: #4b5563;
 }
 
-.timeline-date {
+.timeline-date, .timeline-location {
     color: #6b7280;
     font-size: 0.9rem;
     margin-bottom: 0.5rem;
 }
 
-.timeline-location {
-    color: #9ca3af;
-    font-size: 0.9rem;
-    margin-bottom: 1rem;
-    font-style: italic;
-}
-
-.achievements {
+.achievements, .technologies {
     margin-top: 1rem;
 }
 
-.achievements h5 {
+.achievements h5, .technologies h5 {
     color: #1f2937;
     font-size: 1rem;
     margin-bottom: 0.5rem;
@@ -461,19 +436,6 @@ section {
 .achievements li {
     color: #4b5563;
     margin-bottom: 0.25rem;
-    font-size: 1rem;
-    line-height: 1.6;
-}
-
-.technologies {
-    margin-top: 1rem;
-}
-
-.technologies h5 {
-    color: #1f2937;
-    font-size: 1rem;
-    margin-bottom: 0.5rem;
-    font-weight: 600;
 }
 
 .tech-tags {
@@ -488,8 +450,6 @@ section {
     padding: 0.25rem 0.75rem;
     border-radius: 12px;
     font-size: 0.8rem;
-    font-weight: 500;
-    border: 1px solid #e5e7eb;
 }
 
 /* Skills Section */
