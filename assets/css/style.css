@@ -298,7 +298,7 @@ section {
 .timeline {
     position: relative;
     /* FIX: Set the primary width to be a percentage of the screen */
-    width: 90%;
+    width: 120%;
 
     /* BEST PRACTICE: Still keep a max-width to prevent the layout
        from becoming too wide and hard to read on ultra-wide monitors. */
