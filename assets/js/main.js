@@ -187,6 +187,9 @@ async function loadExperience() {
         
 timeline.innerHTML = experiences.map((exp, index) => `
     <div class="timeline-item">
+        <div class="timeline-image">
+            <img src="assets/images/experience-placeholder.png" alt="${exp.company} - Professional Environment" class="company-image">
+        </div>
         <div class="timeline-marker"></div>
         <div class="timeline-content">
             <h3>${exp.title}</h3>
@@ -211,9 +214,7 @@ timeline.innerHTML = experiences.map((exp, index) => `
                 </div>
             ` : ''}
         </div>
-        <div class="timeline-image">
-            <img src="assets/images/experience-placeholder.png" alt="${exp.company} - Professional Environment" class="company-image">
-        </div>
+
     </div>
 `).join('');
             
