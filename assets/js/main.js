@@ -212,7 +212,7 @@ timeline.innerHTML = experiences.map((exp, index) => `
             ` : ''}
         </div>
         <div class="timeline-image">
-            <img src="assets/images/experience-placeholder.svg" alt="${exp.company} - Professional Environment" class="company-image">
+            <img src="assets/images/experience-placeholder.png" alt="${exp.company} - Professional Environment" class="company-image">
         </div>
     </div>
 `).join('');
