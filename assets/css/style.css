@@ -44,6 +44,10 @@ p {
     color: #666;
 }
 
+p, li, blockquote, .description-text {
+  text-align: justify;
+}
+
 .lead {
     font-size: 1.25rem;
     font-weight: 400;
