@@ -302,7 +302,7 @@ section {
 
     /* BEST PRACTICE: Still keep a max-width to prevent the layout
        from becoming too wide and hard to read on ultra-wide monitors. */
-    max-width: 1980px;
+    /*max-width: 1980px;*/
     margin: 0 auto;
     padding: 2rem 0; /* Add some padding to prevent items from touching the edges */
 }
@@ -370,7 +370,7 @@ section {
     height: 100%;
     object-fit: contain;
     border-radius: 2px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.15);
     transition: transform 0.3s ease;
 }
 
