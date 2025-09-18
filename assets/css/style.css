@@ -361,7 +361,7 @@ section {
 
 .company-image {
     width: 100%; /* Or your desired fixed size */
-    height: 120px;
+    height: 100%;
     object-fit: cover;
     border-radius: 8px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
