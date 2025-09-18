@@ -349,7 +349,7 @@ section {
 
 .timeline-image {
     /* FIX: Set a width that is slightly less than 50% to create a gap */
-    width: calc(50% - 4rem);
+    width: calc(50% - 2rem);
     display: flex; /* Use flexbox for easy image alignment */
     align-items: center; /* Vertically center the image if needed */
     flex-shrink: 0;
