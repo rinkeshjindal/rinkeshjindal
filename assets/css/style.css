@@ -297,7 +297,12 @@ section {
 /* Experience Section */
 .timeline {
     position: relative;
-    max-width: 1600px;
+    /* FIX: Set the primary width to be a percentage of the screen */
+    width: 90%;
+
+    /* BEST PRACTICE: Still keep a max-width to prevent the layout
+       from becoming too wide and hard to read on ultra-wide monitors. */
+    max-width: 1980px;
     margin: 0 auto;
     padding: 2rem 0; /* Add some padding to prevent items from touching the edges */
 }
@@ -334,6 +339,7 @@ section {
 .timeline-content {
     /* FIX: Set a width that is slightly less than 50% to create a gap */
     width: calc(50% - 4rem);
+    min-height: 350px; 
     background: white;
     padding: 2rem;
     border-radius: 12px;
@@ -362,8 +368,8 @@ section {
 .company-image {
     width: 100%; /* Or your desired fixed size */
     height: 100%;
-    object-fit: contain;
-    border-radius: 8px;
+    object-fit: fill;
+    border-radius: 2px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     transition: transform 0.3s ease;
 }
