@@ -1,281 +1,74 @@
-# Rinkesh Jindal - Personal Branding Website
+# India Bank Balance Checker
 
-A modern, lightweight, and SEO-optimized personal branding website built with vanilla HTML, CSS, and JavaScript. This website showcases professional expertise, thought leadership, and provides an easy way for visitors to connect.
+A secure Python application for checking bank balances and fixed deposits from major Indian banks.
 
-## 🌟 Features
+## ⚠️ Important Security Notice
 
-- **Modern Design**: Clean, minimalist design with professional aesthetics
-- **Fully Responsive**: Mobile-first approach ensuring excellent UX on all devices
-- **SEO Optimized**: Built with SEO best practices and structured data
-- **Lightweight**: Fast loading with optimized assets and minimal dependencies
-- **Easy to Customize**: Configuration-driven content management
-- **Portable**: Self-contained package that can be hosted anywhere
+This application is designed to work with official bank APIs and secure authentication methods. It does NOT use web scraping or unauthorized access methods.
 
-## 🚀 Quick Start
+## Features
 
-### Prerequisites
+- Secure credential management
+- Google Sheets integration for reporting
+- Support for multiple Indian banks
+- Fixed deposit tracking with maturity dates
+- Automated reporting with date stamps
+- Excel export functionality
 
-- A modern web browser
-- A local web server (optional, for development)
+## Supported Banks
 
-### Installation
+- ICICI Bank
+- Axis Bank
+- Yes Bank
+- HDFC Bank
 
-1. **Clone or Download** the repository
-   ```bash
-   git clone <repository-url>
-   cd rinkesh-jindal-website
-   ```
+## Prerequisites
 
-2. **Open the website** in your browser
-   - **Option 1**: Open `index.html` directly in your browser
-   - **Option 2**: Use a local server (recommended for development)
-     ```bash
-     # Using Python
-     python -m http.server 8000
-     
-     # Using Node.js
-     npx serve .
-     
-     # Using PHP
-     php -S localhost:8000
-     ```
+1. Python 3.8 or higher
+2. Google Cloud Platform account with Sheets API enabled
+3. Bank account credentials (stored securely)
+4. Chrome browser (for Selenium-based operations)
 
-3. **Access the website** at `http://localhost:8000` (if using a server) or by opening `index.html` directly
+## Installation
 
-## 📁 Project Structure
-
-```
-rinkesh-jindal-website/
-├── index.html                 # Main HTML file
-├── assets/
-│   ├── css/
-│   │   └── style.css         # Main stylesheet
-│   ├── js/
-│   │   └── main.js           # JavaScript functionality
-│   └── images/
-│       └── profile-placeholder.svg  # Profile image placeholder
-├── data/
-│   ├── site-config.json      # Site configuration
-│   ├── blog-posts.json       # Blog posts data
-│   ├── experience.json       # Professional experience
-│   └── skills.json           # Skills and expertise
-└── README.md                 # This file
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd india-bank-checker
 ```
 
-## ⚙️ Configuration
-
-### Site Configuration (`data/site-config.json`)
-
-Update the site configuration to customize:
-
-- **Site Information**: Title, description, URL
-- **Contact Details**: Email, phone, social media links
-- **SEO Settings**: Keywords, Open Graph image
-
-```json
-{
-  "site": {
-    "title": "Your Name - Professional Profile",
-    "description": "Your professional description",
-    "url": "https://yourwebsite.com"
-  },
-  "contact": {
-    "email": "your-email@example.com",
-    "linkedin": "https://linkedin.com/in/yourprofile",
-    "medium": "https://medium.com/@yourusername"
-  }
-}
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
 ```
 
-### Blog Posts (`data/blog-posts.json`)
-
-Add or update blog posts by editing the JSON file:
-
-```json
-[
-  {
-    "title": "Your Article Title",
-    "snippet": "Brief description of the article...",
-    "url": "https://medium.com/@yourusername/article-url",
-    "source": "Medium",
-    "date": "2024-01-15",
-    "readTime": "5 min read"
-  }
-]
+3. Set up environment variables:
+```bash
+cp .env.example .env
+# Edit .env with your credentials
 ```
 
-### Experience (`data/experience.json`)
+4. Set up Google Sheets API:
+   - Create a project in Google Cloud Console
+   - Enable Google Sheets API
+   - Download credentials JSON file
+   - Place it in the project root as `credentials.json`
 
-Update your professional experience:
+## Usage
 
-```json
-[
-  {
-    "title": "Your Job Title",
-    "company": "Company Name",
-    "location": "City, State",
-    "startDate": "2022-01",
-    "endDate": "present",
-    "current": true,
-    "description": "Job description...",
-    "achievements": ["Achievement 1", "Achievement 2"],
-    "technologies": ["Technology 1", "Technology 2"]
-  }
-]
+1. Configure your bank credentials in the Excel file or environment variables
+2. Run the main script:
+```bash
+python main.py
 ```
 
-### Skills (`data/skills.json`)
+## Security
 
-Customize your skills and expertise:
+- All credentials are encrypted and stored securely
+- No sensitive data is logged
+- Uses official APIs where available
+- Implements proper error handling
 
-```json
-{
-  "technical": [
-    {
-      "name": "Skill Name",
-      "level": "expert",
-      "description": "Skill description"
-    }
-  ]
-}
-```
+## Disclaimer
 
-## 🎨 Customization
-
-### Colors and Styling
-
-The website uses CSS custom properties for easy theming. Update the color scheme in `assets/css/style.css`:
-
-```css
-:root {
-  --primary-color: #2563eb;
-  --secondary-color: #1f2937;
-  --accent-color: #10b981;
-  --text-color: #333;
-  --background-color: #ffffff;
-}
-```
-
-### Adding New Sections
-
-1. Add the HTML structure in `index.html`
-2. Add corresponding styles in `assets/css/style.css`
-3. Update the navigation menu
-4. Add smooth scrolling functionality in `assets/js/main.js`
-
-### Images
-
-- Replace `assets/images/profile-placeholder.svg` with your professional headshot
-- Ensure images are optimized for web (WebP format recommended)
-- Update image references in the HTML and configuration files
-
-## 🚀 Deployment
-
-### Static Hosting (Recommended)
-
-The website is designed to be deployed as a static site. Popular options:
-
-#### Netlify
-1. Connect your GitHub repository
-2. Set build command: (leave empty)
-3. Set publish directory: `/` (root)
-4. Deploy!
-
-#### Vercel
-1. Import your project
-2. Framework preset: Other
-3. Deploy!
-
-#### GitHub Pages
-1. Push to GitHub
-2. Go to repository Settings > Pages
-3. Select source branch
-4. Deploy!
-
-#### AWS S3 + CloudFront
-1. Upload files to S3 bucket
-2. Enable static website hosting
-3. Configure CloudFront distribution
-4. Deploy!
-
-### Custom Domain
-
-1. Update the `url` in `data/site-config.json`
-2. Update all absolute URLs in the HTML
-3. Configure DNS settings with your hosting provider
-
-## 📱 Mobile Optimization
-
-The website is built with a mobile-first approach:
-
-- Responsive grid layouts
-- Touch-friendly navigation
-- Optimized images for different screen sizes
-- Fast loading on mobile networks
-
-## 🔍 SEO Features
-
-- Semantic HTML structure
-- Meta tags and Open Graph data
-- Structured data (Schema.org)
-- Optimized images with alt text
-- Clean, crawlable URLs
-- Fast loading times
-
-## 🛠️ Development
-
-### Local Development
-
-1. Use a local server for development
-2. Enable browser developer tools
-3. Test on multiple devices and browsers
-4. Validate HTML and CSS
-
-### Performance Optimization
-
-- Images are optimized for web
-- CSS and JavaScript are minified
-- Critical resources are preloaded
-- Lazy loading for non-critical content
-
-## 📊 Analytics
-
-To add analytics:
-
-1. Add Google Analytics or similar tracking code to the `<head>` section
-2. Update the tracking ID in your configuration
-3. Test the implementation
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
-## 📞 Support
-
-For questions or support:
-
-- Email: contact@rinkeshjindal.com
-- LinkedIn: [Rinkesh Jindal](https://www.linkedin.com/in/rinkeshjindal/)
-- Medium: [@rinkeshjindal](https://medium.com/@rinkeshjindal)
-
-## 🔄 Updates
-
-### Version 1.0.0
-- Initial release
-- Responsive design
-- SEO optimization
-- Blog integration
-- Contact form
-- Configuration system
-
----
-
-**Built with ❤️ for professional branding and thought leadership**
+This tool is for personal use only. Users are responsible for complying with their bank's terms of service and applicable laws.
